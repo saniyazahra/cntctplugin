@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!--- these links(fontawesome & google are used for fonts)-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>Contact Form</header>
+        <form action="#">
+            <div class="dbl-field">
+                <div class="field">
+                    <input type="text" name="first" placeholder="Enter Your First Name">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="field">
+                    <input type="text" name="last" placeholder="Enter Your Last Name">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="field">
+                    <input type="text" name="email" placeholder="Enter Your Email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="field">
+                    <input type="text" name="phone" placeholder="Enter Your Phone Number">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+            </div>
+                 <div class="message">
+            <textarea placeholder="Write Your message" name="message"></textarea>
+            <i class="material-icons"></i>
+            </div>
+            <div class="button-area">
+             <button type="submit">Submit</button>
+             <span>Loading.....</span>
+             </div>
+        </form>
+    </div>
+             <script src="script.js"></script>
+          </body>
+          </html>
